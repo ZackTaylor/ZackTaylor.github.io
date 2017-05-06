@@ -1,3 +1,24 @@
-* {
-  background: #f10505;
+#scoring-leaders {
+  width: 100%;
+  height: 250px;
+  border-collapse: collapse;
+}
+#scoring-caption {
+  caption-side: bottom;
+}
+.scoring-head {
+  background-color: #CE1141;
+  color: #000;
+  font-weight: bold;
+  height: 50px;
+  text-align: left;
+}
+.scoring-row:hover {
+  background-color: gray;
+}
+.scoring-head, .scoring-data {
+  border-bottom: 1px solid #ddd;
+}
+.scoring-row:nth-child(even) {
+  background-color: #f2f2f2
 }
