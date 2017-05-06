@@ -1,3 +1,4 @@
+/*main styles*/
 a:visited {
   color:#CE1141;
 }
@@ -8,6 +9,7 @@ a:visited {
 }
 #scoring-caption {
   caption-side: bottom;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .scoring-head {
   background-color: #CE1141;
@@ -24,4 +26,35 @@ a:visited {
 }
 .scoring-row:nth-child(even) {
   background-color: #f2f2f2
+}
+
+/*questionare specific styles*/
+#questionaire-header {
+  text-align: center;
+  font-size: 30px;
+}
+fieldset {
+  height: 550px;
+}
+.input-item {
+  margin: 10px;
+}
+.input-item > label {
+  font-size: 25px;
+  font-weight: bold;
+}
+input {
+  margin: 5px;
+  height: 40px;
+  width: 100%;
+}
+label {
+  margin: 5px;
+}
+#button {
+  text-align: center;
+}
+#questionaire-submit {
+  height: 50px;
+  width: 100px
 }
