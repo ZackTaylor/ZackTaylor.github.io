@@ -1,10 +1,16 @@
 /*main styles*/
+* {
+  font-family: 'Anton', sans-serif;
+}
 header {
   text-align: center;
 }
+h2 {
+  font-size: 30px;
+}
 header > h1 {
   position: relative;
-  top: -15px;
+  top: -20px;
   margin-left: 20px;
   display: inline-block;
   font-size: 50px;
@@ -20,10 +26,12 @@ a:visited {
   width: 100%;
   height: 250px;
   border-collapse: collapse;
+  font-size: 40px;
 }
 #scoring-caption {
   caption-side: bottom;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 30px;
 }
 .scoring-head {
   background-color: #CE1141;
@@ -37,10 +45,16 @@ a:visited {
 }
 .scoring-head, .scoring-data {
   border-bottom: 1px solid #ddd;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .scoring-row:nth-child(even) {
-  background-color: #f2f2f2
+  background-rcolor: #f2f2f2
+}
+footer {
+text-align: center;
+}
+#sources {
+  font-size: 12px;
 }
 
 /*questionare specific styles*/
