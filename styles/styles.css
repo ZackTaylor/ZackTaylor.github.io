@@ -4,6 +4,7 @@
 }
 header {
   text-align: center;
+  border: 1px solid black;
 }
 h2 {
   font-size: 30px;
@@ -13,7 +14,13 @@ header > h1 {
   top: -20px;
   margin-left: 20px;
   display: inline-block;
-  font-size: 50px;
+  font-size: 30px;
+}
+#championships {
+   background-image: url(../images/championship.jpg);
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-size: 250px 350px;
 }
 a:visited {
   color:#CE1141;
@@ -39,9 +46,6 @@ a:visited {
   font-weight: bold;
   height: 50px;
   text-align: left;
-}
-.scoring-row:hover {
-  background-color: gray;
 }
 .scoring-head, .scoring-data {
   border-bottom: 1px solid #ddd;
@@ -86,4 +90,54 @@ label {
 #questionaire-submit {
   height: 50px;
   width: 100px
+}
+#crying-mj {
+  width: 100%;
+  height: auto;
+}
+figcaption {
+  font-size: 10px;
+  font-style: italic;
+}
+/*Responsivenss*/
+@media screen and (max-width: 608px) {
+  header > h1 {
+    font-size: 25px;
+  }
+  #scoring-leaders {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 522px) {
+  header > h1 {
+    font-size: 20px;
+  }
+  #top-logo {
+      height: 70px; width: 70px;
+  }
+  #scoring-leaders {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 438px) {
+  header > h1 {
+    font-size: 18px;
+  }
+  #top-logo {
+      height: 65px; width: 65px;
+  }
+  #scoring-leaders {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header > h1 {
+    font-size: 16px;
+  }
+  #top-logo {
+      height: 60px; width: 60px;
+  }
+  #scoring-leaders {
+    font-size: 14px;
+  }
 }
