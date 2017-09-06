@@ -1,65 +1,62 @@
-
 body {
-/*	background: #F2E9E4;*/
-	/* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
-	/* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to left, #ef32d9, #89fffd);*/
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/*	height: 100%;
+  /*	background: #F2E9E4;*/
+  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
+  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to left, #ef32d9, #89fffd);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*	height: 100%;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
-	border-top: 6px solid #337acb;
-	padding-top:50px;
+  border-top: 6px solid #337acb;
+  padding-top: 30px;
 }
 
-h1, h2, h3, h4, h5{
-	color:#4A4E69;
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+h1, h2, h3, h4, h5 {
+  color: #4A4E69;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
-	color: #4A4E69;
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+  color: #4A4E69;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .profile-pic {
-	box-shadow: 0px 4px 6px 2px lightgrey;
+  box-shadow: 0px 4px 6px 2px lightgrey;
   border-radius: 50%
 }
 
-
 .about-me {
-	margin-top:25px;
+  margin-top: 25px;
 }
 
-
 .row-grey {
-	background-color: lightgrey;
-	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-	padding: 65px 10px;
+  background-color: lightgrey;
+  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  padding: 65px 10px;
 }
 
 .row-white {
-	/*background-color: lightgrey;*/
-	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
-	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
-	padding: 65px 10px;
+  /*background-color: lightgrey;*/
+  /*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
+  /*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
+  padding: 65px 10px;
 }
 
 .row-footer {
-/*	background-color: lightgrey;
+  /*	background-color: lightgrey;
 	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
 	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
-	padding: 65px 10px;
+  padding: 65px 10px;
 }
 
 .work-item-row {
-	/*padding: 10% 0;*/
+  /*padding: 10% 0;*/
 }
 
 .row-tools {
@@ -67,23 +64,22 @@ p {
 }
 
 .techlogo {
-	width: 100px;
-	margin: 2px;
+  width: 100px;
+  margin: 2px;
 }
 
 .btn-launch {
-	width:100%;
-	max-width:200px;
-	background-color: #549657;
-	color:white;
-	box-shadow: 0px 2px 4px 1px darkgrey;
+  width: 100%;
+  max-width: 200px;
+  background-color: #337acb;
+  color: white;
+  box-shadow: 0px 2px 4px 1px darkgrey;
 }
 
-.btn-launch:hover,
-.btn-launch:focus {
-	position: relative;
+.btn-launch:hover, .btn-launch:focus {
+  position: relative;
   top: -1px;
-	color: white;
-	background: rgba(84, 150, 87, 0.90);
-	box-shadow: 0px 2px 5px 2px darkgrey;
+  color: white;
+  background: rgba(51, 122, 203, 0.85);
+  box-shadow: 0px 2px 5px 2px darkgrey;
 }
