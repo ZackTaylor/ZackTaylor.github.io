@@ -65,6 +65,10 @@ p {
   padding: 50px 0;
 }
 
+.techlogo {
+	width: 100px;
+	margin: 2px;
+}
 
 .btn-launch {
 	width:100%;
