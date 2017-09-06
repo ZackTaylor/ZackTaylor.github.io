@@ -10,7 +10,8 @@ body {
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
-	margin-top:50px;
+	border-top: 6px solid #337acb;
+	padding-top:50px;
 }
 
 h1, h2, h3, h4, h5{
@@ -75,11 +76,14 @@ p {
 	max-width:200px;
 	background-color: #549657;
 	color:white;
-	box-shadow: 0px 2px 5px 1px darkgrey;
+	box-shadow: 0px 2px 4px 1px darkgrey;
 }
 
 .btn-launch:hover,
 .btn-launch:focus {
+	position: relative;
+  top: -1px;
 	color: white;
-	background: #3d7140;
+	background: rgba(84, 150, 87, 0.90);
+	box-shadow: 0px 2px 5px 2px darkgrey;
 }
