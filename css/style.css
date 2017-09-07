@@ -1,3 +1,15 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 body {
   /*	background: #F2E9E4;*/
   /* fallback for old browsers */
@@ -9,12 +21,13 @@ body {
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
+
   padding-top: 30px;
 }
 
 h1, h2, h3, h4, h5 {
   color: #4A4E69;
-  font-weight: 300;
+  font-weight: 300;overflow:hidden;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -24,6 +37,9 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  max-height: 500px;
+}
 .profile-pic {
   box-shadow: 0px 4px 6px 2px lightgrey;
   border-radius: 50%
@@ -38,21 +54,10 @@ p {
   padding: 65px 10px;
 }
 .row-white {
-  /*background-color: lightgrey;*/
-  /*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
-  /*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
-
   padding: 65px 10px;
 }
 .row-footer {
-  /*	background-color: lightgrey;
-	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
-	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
-
   padding: 65px 10px;
-}
-.work-item-row {
-  /*padding: 10% 0;*/
 }
 .row-tools {
   padding: 50px 0;
