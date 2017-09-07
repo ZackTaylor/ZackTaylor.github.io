@@ -54,21 +54,10 @@ img {
   padding: 65px 10px;
 }
 .row-white {
-  /*background-color: lightgrey;*/
-  /*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
-  /*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
-
   padding: 65px 10px;
 }
 .row-footer {
-  /*	background-color: lightgrey;
-	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
-	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
-
   padding: 65px 10px;
-}
-.work-item-row {
-  /*padding: 10% 0;*/
 }
 .row-tools {
   padding: 50px 0;
