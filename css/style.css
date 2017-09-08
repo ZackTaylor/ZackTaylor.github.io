@@ -1,6 +1,8 @@
 ::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
 }
 
 body {
@@ -19,7 +21,8 @@ body {
 
 h1, h2, h3, h4, h5 {
   color: #4A4E69;
-  font-weight: 300;overflow:hidden;
+  font-weight: 300;
+  overflow: hidden;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -36,55 +39,67 @@ img {
 .title {
   padding-bottom: 5px;
 }
+
 .profile-pic {
   box-shadow: 0px 4px 6px 2px lightgrey;
   border-radius: 50%
 }
+
 .about-me {
   margin-top: 25px;
 }
+
 .row-grey {
   background-color: lightgrey;
   -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
   padding: 65px 10px;
 }
+
 .row-white {
   padding: 65px 10px;
 }
+
 .row-footer {
   padding: 65px 10px;
 }
+
 .row-tools {
   padding: 50px 0;
 }
+
 .techlogo {
   width: 100px;
   margin: 2px;
 }
+
 .btn-launch {
   width: 100%;
   max-width: 200px;
   background-color: #337acb;
   color: white;
   box-shadow: 0px 2px 4px 1px darkgrey;
-	font-weight: bold;
+  font-weight: bold;
 }
+
 .btn-launch:hover, .btn-launch:focus {
   position: relative;
-	font-weight: bold;
+  font-weight: bold;
   top: -1px;
   color: white;
   background: rgba(51, 122, 203, 0.85);
   box-shadow: 0px 2px 5px 2px darkgrey;
 }
+
 .profiles {
   font-size: 2em;
   margin: 15px;
 }
+
 .project-button {
   margin: 25px;
 }
+
 .color-bar {
   background-color: #337acb !important;
   position: fixed;
@@ -94,6 +109,10 @@ img {
   z-index: 1;
 }
 
+.logos {
+  padding-top: 15px;
+}
+
 .footer-text {
-	margin: 20px 0;
+  margin: 20px 0;
 }
